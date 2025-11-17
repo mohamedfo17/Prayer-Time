@@ -51,33 +51,6 @@ npm run dev
 
 ## 🎯 Usage
 
-### Basic Usage
-```javascript
-// Import the necessary modules
-import { calculatePrayerTimes } from './prayerTimes';
-
-// Define your location
-const location = {
-  latitude: 37.7749,
-  longitude: -122.4194
-};
-
-// Calculate prayer times
-const prayerTimes = calculatePrayerTimes(location);
-
-// Output the prayer times
-console.log(prayerTimes);
-```
-
-### Advanced Usage
-- **Customizing Prayer Times:**
-  ```javascript
-  const customPrayerTimes = calculatePrayerTimes(location, {
-    method: 'MWL',
-    date: new Date()
-  });
-  ```
-
 - **API Documentation:**
   - [API Documentation](https://aladhan.com/prayer-times-api)
 
@@ -103,12 +76,6 @@ prayer-time/
 ```
 
 ## 🔧 Configuration
-- **Environment Variables:**
-  - `.env` file for sensitive data
-  - Example:
-    ```env
-    NEXT_PUBLIC_API_KEY=your_api_key
-    ```
 
 - **Configuration Files:**
   - `tailwind.config.js` for Tailwind CSS customization
@@ -135,23 +102,6 @@ prayer-time/
   - Provide clear and concise commit messages
   - Address any feedback from reviewers
 
-## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors & Contributors
-- **Maintainers:**
-  - [Your Name](https://github.com/yourusername)
-- **Contributors:**
-  - [Contributor 1](https://github.com/contributor1)
-  - [Contributor 2](https://github.com/contributor2)
-
-## 🐛 Issues & Support
-- **Reporting Issues:**
-  - Please open an issue on the [GitHub Issues page](https://github.com/yourusername/prayer-time/issues).
-- **Where to Get Help:**
-  - Join the [Discussion Forum](https://discussion-url.com) for community support.
-- **FAQ:**
-  - [Frequently Asked Questions](https://your-faq-url.com)
 
 ## 🗺️ Roadmap
 - **Planned Features:**
