@@ -79,7 +79,7 @@ console.log(prayerTimes);
   ```
 
 - **API Documentation:**
-  - [API Documentation](https://your-api-docs-url.com)
+  - [API Documentation](https://aladhan.com/prayer-times-api)
 
 ## 📁 Project Structure
 ```
